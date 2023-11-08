@@ -12,9 +12,8 @@ Using the due date, last period date, ultrasound date, conception date, or IVF t
 3. Activate the [Pregnancy Calculator](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_pregnancy_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Pregnancy Calculator to the sidebar through the `Appearance -> Widgets -> Pregnancy Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_pregnancy_calculator(); ?>` to your template where you would like the Pregnancy Calculator to appear.
+* Add the shortcode `[ci_pregnancy_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_pregnancy_calculator(); ?>` to your template where you would like the Pregnancy Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
