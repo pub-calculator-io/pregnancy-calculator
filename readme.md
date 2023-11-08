@@ -1,47 +1,25 @@
-# Pregnancy Calculator by Calculator.iO
-Contributors: calculatorio
-Tags: 
-Requires at least: 5.0
-Tested up to: 6.4.0
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Pregnancy Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
 
 Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
 
-## Description
-
-Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
-
-### Shortcode
-
-Use the Pregnancy Calculator shortcode:
-
-`[ci_pregnancy_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+![Pregnancy Calculator Input Form](/assets/images/screenshot-1.png "Pregnancy Calculator Input Form")
+![Pregnancy Calculator Calculation Results](/assets/images/screenshot-2.png "Pregnancy Calculator Calculation Results")
 
 ## Installation
 
-1. Upload the /ci_pregnancy_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Pregnancy Calculator](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage") plugin through the "Plugins" menu in WordPress.
+1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+2. Upload the /pregnancy-calculator-master/ folder to the /wp-content/plugins/ directory.
+3. Activate the [Pregnancy Calculator](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
 * Add the shortcode `[ci_pregnancy_calculator]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the Pregnancy Calculator to the sidebar through the `Appearance -> Widgets -> Pregnancy Calculator` menu in WordPress.
 * Add the following code: `<?php display_ci_pregnancy_calculator(); ?>` to your template where you would like the Pregnancy Calculator to appear.
 
-## Screenshots
-1. The Pregnancy Calculator Input Form.
-2. The Pregnancy Calculator Calculation Results.
-
-## Changelog
-
-### 1.0.0
-* Initial release
+## Libraries in Use
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
