@@ -13,6 +13,8 @@ Using the due date, last period date, ultrasound date, conception date, or IVF t
 
 Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
 
+[Pregnancy Calculator Homepage](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage")
+
 __Shortcode__
 
 Use the Pregnancy Calculator shortcode:
