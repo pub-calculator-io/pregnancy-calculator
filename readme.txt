@@ -13,34 +13,35 @@ Using the due date, last period date, ultrasound date, conception date, or IVF t
 
 Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
 
-[Pregnancy Calculator Homepage](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage")
+[https://www.calculator.io/pregnancy-calculator/](https://www.calculator.io/pregnancy-calculator/)
 
-__Shortcode__
-
-Use the Pregnancy Calculator shortcode:
+__Pregnancy Calculator Shortcode__
 
 `[ci_pregnancy_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_pregnancy_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Pregnancy Calculator](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== Pregnancy Calculator Usage ==
+
 * Add the shortcode `[ci_pregnancy_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_pregnancy_calculator(); ?>` to your template where you would like the Pregnancy Calculator to appear.
 
 == Screenshots ==
+
 1. The Pregnancy Calculator Input Form.
 2. The Pregnancy Calculator Calculation Results.
+
+== Libraries used in Pregnancy Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
