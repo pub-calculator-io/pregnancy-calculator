@@ -1,4 +1,4 @@
-# Pregnancy Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Pregnancy Calculator Widget for WordPress
 
 Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
 
