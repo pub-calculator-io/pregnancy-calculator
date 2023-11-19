@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Pregnancy Calculator by www.calculator.io
+Plugin Name: CI Pregnancy calculator
 Plugin URI: https://www.calculator.io/pregnancy-calculator/
 Description: Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
 Version: 1.0.0
