@@ -1,4 +1,4 @@
-=== Pregnancy Calculator ===
+=== Pregnancy Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: pregnancy calculator, due date calculator, pregnancy due date calculator, pregnancy week calculator, pregnancy trimester calculator, pregnancy conception calculator, pregnancy timeline calculator, pregnancy gestational age calculator, pregnancy ovulation calculator, calculate pregnancy dates
 Requires at least: 5.0
