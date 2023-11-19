@@ -7,7 +7,7 @@ Using the due date, last period date, ultrasound date, conception date, or IVF t
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/pregnancy-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /pregnancy-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Pregnancy Calculator](https://www.calculator.io/pregnancy-calculator/ "Pregnancy Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
