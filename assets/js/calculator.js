@@ -15,7 +15,7 @@ function calculate() {
 
 	if(basedOn === 0) {
 		if(!dueDate) {
-			return input.error('due_date', 'Please enter a due date', true);
+			return input.error('due_date', 'Enter the due date', true);
 		}
 		else {
 			const date = dueDate;
@@ -28,7 +28,7 @@ function calculate() {
 	}
 	else if(basedOn === 1) {
 		if(!firstDay) {
-			return input.error('first_day', 'Please enter a first day', true);
+			return input.error('first_day', 'Enter the first day', true);
 		}
 		else {
 			const date = firstDay;
@@ -41,10 +41,10 @@ function calculate() {
 	}
 	else if(basedOn === 2) {
 		if(!ultrasoundDate) {
-			input.error('ultrasound_date', 'Please enter a ultrasound date');
+			input.error('ultrasound_date', 'Enter the date of the ultrasound');
 		}
 		if(!pregnancyWeeks) {
-			input.error('pregnancy_weeks', 'Please length of pregnancy at the time');
+			input.error('pregnancy_weeks', 'Enter the pregnancy length at that time');
 		}
 		if(!input.valid()) return;
 		const date = ultrasoundDate;
@@ -79,31 +79,14 @@ function dateDiff(startingDate, endDate) {
 
 function showResult(days){
 	if(days < 0 || days > 300) {
-		output.val('You probably are not pregnant yet.').set('result')
+		output.val(`It's likely that you are not pregnant yet.`).set('result')
 	}
 	else {
-		output.val('Week {#23} ({22 weeks} {6 days} or {5 months} {9 days}) of pregnancy.')
-			.replace('{#23}', `#${(Math.floor(days / 7) + 1)}`)
-			.replace('{22 weeks}', plural(Math.floor(days / 7), 'w'))
-			.replace('{6 days}', plural(Math.floor(days % 7), 'd'))
-			.replace('{5 months}', plural(Math.floor(days / 30.41), 'm'))
-			.replace('{9 days}', plural(Math.floor(days % 30.41), 'd')).set('result')
+		output.val('{23} week of the pregnancy ({22 weeks} {6 days}, or {5 months} {9 days}).')
+			.replace('{23}', (Math.floor(days / 7) + 1))
+			.replace('{22 weeks}', plural(Math.floor(days / 7), 'weeks:week:weeks:weeks:weeks:weeks'))
+			.replace('{6 days}', plural(Math.floor(days % 7), 'days:day:days:days:days:days'))
+			.replace('{5 months}', plural(Math.floor(days / 30.41), 'months:month:months:months:months:months'))
+			.replace('{9 days}', plural(Math.floor(days % 30.41), 'days:day:days:days:days:days')).set('result')
 	}
-}
-
-function plural(number, label) {
-	/*Days*/
-	if(number === 0) return '';
-
-	if (label === 'd') return number === 1 ? number + ' day' : number + ' days';
-
-	/*Week*/
-	if (label === 'w') return number === 1 ? number + ' week' : number + ' weeks';
-
-	/*Month*/
-	if (label === 'm') return number === 1 ? number + ' month' : number + ' months';
-
-	/*Year*/
-	if (label === 'y') return number === 1 ? number + ' year' : number + ' years';
-
 }

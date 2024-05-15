@@ -3,7 +3,6 @@
 Using the due date, last period date, ultrasound date, conception date, or IVF transfer date, this calculator generates an expected pregnancy timeline.
 
 ![Pregnancy Calculator Input Form](/assets/images/screenshot-1.png "Pregnancy Calculator Input Form")
-![Pregnancy Calculator Calculation Results](/assets/images/screenshot-2.png "Pregnancy Calculator Calculation Results")
 
 ## Installation
 
